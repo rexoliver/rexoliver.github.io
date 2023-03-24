@@ -38,3 +38,37 @@
     transform: rotate(360deg);
   }
 }
+
+.layout {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.header__logo {
+  font-size: 2rem;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav a {
+  display: block;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  padding: 2rem;
+}
