@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Route, Routes, Link } from "react-router-dom"
 import Layout from './components/Layout';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
@@ -9,16 +9,14 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-    <Router>
       <Layout>
-        <Switch>
-          <Route exact path="/" component={Projects} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/" Component={Projects} />
+          <Route path="/resume" Component={Resume} />
+          <Route path="/about" Component={About} />
+          <Route path="/contact" Component={Contact} />
+        </Routes>
       </Layout>
-    </Router>
   );
 };
 export default App;

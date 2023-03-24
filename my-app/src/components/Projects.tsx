@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Contact: React.FC = () => {
+const Projects: React.FC = () => {
     return (
         <>
-            <h1>Contact Section</h1>
+            <h1>Projects Section</h1>
         </>
     );
 }
 
-export default Contact;
+export default Projects;
