@@ -9,14 +9,16 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-      <Layout>
-        <Routes>
-          <Route path="/" Component={Projects} />
-          <Route path="/resume" Component={Resume} />
-          <Route path="/about" Component={About} />
-          <Route path="/contact" Component={Contact} />
-        </Routes>
-      </Layout>
+      <>
+        <Layout>
+          <Routes>
+            <Route path="/" Component={Projects} />
+            <Route path="/resume" Component={Resume} />
+            <Route path="/about" Component={About} />
+            <Route path="/contact" Component={Contact} />
+          </Routes>
+        </Layout>
+      </>
   );
 };
 export default App;
