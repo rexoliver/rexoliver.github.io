@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <div className="header__logo">Rex Oliver</div>
       <nav className="header__nav">
         <Link to="/">Projects</Link>
-        <Link to="/resume">Resume</Link>
+        <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </nav>
