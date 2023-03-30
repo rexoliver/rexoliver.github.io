@@ -8,7 +8,7 @@ const About = () => {
         <h1>About Me</h1>
       </header>
       <div className="main">
-        <h2>Your Name</h2>
+        <h2>Rex Oliver</h2>
         <p>I am a Full Stack Developer with 2 years of experience, skilled in multiple programming languages and frameworks. I'm passionate about learning new technologies and building user-friendly applications.</p>
         <h3>Contact Information:</h3>
         <ul>
