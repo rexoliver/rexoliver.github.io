@@ -6,6 +6,7 @@ import Resume from './components/Resume';
 import About from './components/About';
 import Contact from './components/Contact';
 import './App.css';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
             <Route path="/about" Component={About} />
             <Route path="/contact" Component={Contact} />
           </Routes>
+          <Footer/>
         </Layout>
       </>
   );
