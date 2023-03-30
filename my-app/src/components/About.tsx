@@ -12,7 +12,7 @@ const About = () => {
         <p>I am a Full Stack Developer with 2 years of experience, skilled in multiple programming languages and frameworks. I'm passionate about learning new technologies and building user-friendly applications.</p>
         <h3>Contact Information:</h3>
         <ul>
-          <li>Phone: (123) 456-7890</li>
+          <li>Phone: (803) 622-7187</li>
           <li>Email: <a className="App-link" href="mailto:rexoliver12@gmail.com">rexoliver12@gmail.com</a></li>
           <li>GitHub: <a className="App-link" href="https://github.com/rexoliver" target="_blank" rel="noopener noreferrer">github.com/rexoliver</a></li>
         </ul>
