@@ -13,8 +13,8 @@ const About = () => {
         <h3>Contact Information:</h3>
         <ul>
           <li>Phone: (123) 456-7890</li>
-          <li>Email: <a className="App-link" href="mailto:youremail@example.com">youremail@example.com</a></li>
-          <li>GitHub: <a className="App-link" href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a></li>
+          <li>Email: <a className="App-link" href="mailto:rexoliver12@gmail.com">rexoliver12@gmail.com</a></li>
+          <li>GitHub: <a className="App-link" href="https://github.com/rexoliver" target="_blank" rel="noopener noreferrer">github.com/rexoliver</a></li>
         </ul>
       </div>
     </div>
