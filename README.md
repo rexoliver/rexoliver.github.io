@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Rex Oliver's Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the source code for my personal website, built using TypeScript and React, and hosted on GitHub Pages. You can view the website live at [https://rexoliver.com](https://rexoliver.com).
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with the project, clone the repository and install the dependencies:
+ 
+```
+git clone https://github.com/rexoliver/rexoliver.github.io.git
+cd rexoliver.github.io
+npm install
+```
+To start a local development server, run the following command:
 
-### `npm start`
+```
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will start a development server and open the website in your default browser. Any changes you make to the code will automatically update the website in real-time.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+To deploy the website to GitHub Pages, run the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm run deploy
+```
 
-### `npm run build`
+This will build the website and push it to the master branch of your GitHub repository. The website will be live at https://rexoliver.com.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Customization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To customize the website for your own use, you can edit the files in the src directory. Here's a brief overview of the files and directories:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- src/components: This directory contains React components for the various sections of the website, such as the header, about section, and projects section.
+- src/data: This directory contains JSON files with data for the various sections of the website, such as your personal information and a list of your projects.
+- src/App.tsx: This is the main entry point for the website, which imports and renders the various components.
+- src/index.tsx: This is the entry point for the React application, which renders the App component.
 
-### `npm run eject`
+You can edit these files to customize the website with your own content and styling.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Credits
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This website was built using the following open source libraries and tools:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- TypeScript
+- React
+- React Router
+- Styled Components
+- GitHub Pages
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License - see the LICENSE file for details.
+You can copy and paste this text into your own README file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
