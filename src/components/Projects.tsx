@@ -7,7 +7,13 @@ const Projects: React.FC = () => {
         <>
             <h1>Project Page</h1>
             <div>
-                <ProjectObject filename="../../data/progcalc-react.json"/>
+                <ProjectObject filename="/data/progcalc-react.json"/>
+            </div>
+            <div>
+                <ProjectObject filename="/data/todo-pern.json"/>
+            </div>
+            <div>
+                <ProjectObject filename="/data/dotfiles.json"/>
             </div>
         </>
     );
