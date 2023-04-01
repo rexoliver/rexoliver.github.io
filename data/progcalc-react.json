@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "name": "Programmer Calculator",
+    "description": "A Calculator programmed in React.js",
+    "technologies": ["React", "TypeScript"],
+    "imageUrl": "https://rexoliver.com/assets/progcalc-react.png",
+    "repositoryUrl": "https://github.com/rexoliver/progcalc-react",
+    "liveUrl": "https://rexoliver.com/progcalc-react"
+  }
