@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "name": "Rex's Dotfiles",
+    "description": "Sensible MacOS Dotfiles",
+    "technologies": ["Shell", "Vim Script"],
+    "imageUrl": "https://rexoliver.com/assets/todo-pern.png",
+    "repositoryUrl": "https://github.com/rexoliver/dotfiles",
+    "liveUrl": "https://rexoliver.com/dotfiles"
+  }
