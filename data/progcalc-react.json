@@ -1,9 +1,9 @@
 {
     "id": 1,
-    "name": "Programmer Calculator",
+    "name": "Programmer's Calculator",
     "description": "A Calculator programmed in React.js",
     "technologies": ["React", "TypeScript"],
-    "imageUrl": "https://rexoliver.com/assets/progcalc-react.png",
+    "imageUrl": "./assets/progcalc-react-gradient-applied-gimp-1stdraft.png",
     "repositoryUrl": "https://github.com/rexoliver/progcalc-react",
     "liveUrl": "https://rexoliver.com/progcalc-react"
   }
