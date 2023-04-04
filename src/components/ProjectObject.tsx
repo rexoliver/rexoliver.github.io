@@ -23,20 +23,31 @@ const ProjectObject: React.FC<ProjectObjectProps> = ({ filename }) => {
     <>
       {project && (
         <>
-          <h2>{project.name}</h2>
-          <p>{project.description}</p>
-          <p>Technologies: {project.technologies.join(', ')}</p>
-          <img src={project.imageUrl} alt={project.name} />
-          <p>
-            <a href={project.repositoryUrl} target="_blank" rel="noopener noreferrer">
-              GitHub Repository
-            </a>
-          </p>
-          <p>
-            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-              Live Demo
-            </a>
-          </p>
+          <h2 className='projtitle' >{project.name}</h2>
+          <div className='projectobject'>
+          <img className='projimg' src={project.imageUrl} alt={project.name} />
+            
+            
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p>{project.description}</p>
+            <p>Technologies: {project.technologies.join(', ')}</p>
+            
+            <p>
+              <a href={project.repositoryUrl} target="_blank" rel="noopener noreferrer">
+                GitHub Repository
+              </a>
+            </p>
+            <p>
+              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                Live Demo
+              </a>
+            </p>
+          </div>
         </>
       )}
     </>

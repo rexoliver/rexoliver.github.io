@@ -6,14 +6,16 @@ const Projects: React.FC = () => {
     return (
         <>
             <h1>Project Page</h1>
-            <div>
-                <ProjectObject filename="/data/progcalc-react.json"/>
-            </div>
-            <div>
-                <ProjectObject filename="/data/todo-pern.json"/>
-            </div>
-            <div>
-                <ProjectObject filename="/data/dotfiles.json"/>
+            <div className='projects'>
+                <div>
+                    <ProjectObject filename="/data/progcalc-react.json"/>
+                </div>
+                <div>
+                    <ProjectObject filename="/data/todo-pern.json"/>
+                </div>
+                <div>
+                    <ProjectObject filename="/data/dotfiles.json"/>
+                </div>
             </div>
         </>
     );

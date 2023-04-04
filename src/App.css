@@ -2,6 +2,37 @@
   text-align: center;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectobject {
+  position: relative;
+  flex: 0 0 auto;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 14px;
+}
+
+.projimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  max-width: 300px;
+  max-height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.projtitle {
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
