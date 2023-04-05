@@ -3,7 +3,7 @@
     "name": "TODO List Application",
     "description": "TODO List Application written in the PERN Stack",
     "technologies": ["React", "TypeScript", "Node", "Postgres"],
-    "imageUrl": "https://rexoliver.com/assets/todo-pern.png",
+    "imageUrl": "./assets/todo-pern.png",
     "repositoryUrl": "https://github.com/rexoliver/todo-pern",
     "liveUrl": "https://rexoliver.com/todo-pern"
-  }
+}
