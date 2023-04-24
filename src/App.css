@@ -10,7 +10,7 @@
 .projectobject {
   position: relative;
   flex: 0 0 auto;
-  max-width: 300px;
+  min-height: 300px;
   max-height: 300px;
   min-width: 300px;
   max-width: 300px;
@@ -24,6 +24,7 @@
   z-index: -1;
   max-width: 300px;
   max-height: 300px;
+  min-height: 300px;
   border: 1px solid black;
   border-radius: 10px;
 }
