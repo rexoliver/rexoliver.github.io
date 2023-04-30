@@ -23,8 +23,8 @@
   left: 0;
   z-index: -1;
   max-width: 300px;
-  max-height: 300px;
-  min-height: 300px;
+  max-height: 310px;
+  min-height: 310px;
   border: 1px solid black;
   border-radius: 10px;
 }
