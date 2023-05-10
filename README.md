@@ -11,7 +11,7 @@ git clone https://github.com/rexoliver/rexoliver.github.io.git
 cd rexoliver.github.io
 npm install
 ```
-To start a local development server, run the following command:
+To start a local development server, run the following commands:
 
 ```
 npm start
