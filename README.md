@@ -21,7 +21,7 @@ This will start a development server and open the website in your default browse
 
 ## Deployment
 
-To deploy the website to GitHub Pages, run the following command:
+To deploy the website to GitHub Pages, run this command:
 
 ```
 npm run deploy
