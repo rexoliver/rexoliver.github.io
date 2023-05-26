@@ -1,4 +1,4 @@
-# Rex Oliver's Personal Website
+# Rex Oliver's Personal Website!
 
 This is the source code for my personal website, built using TypeScript and React, and hosted on GitHub Pages. You can view the website live at [https://rexoliver.com](https://rexoliver.com).
 
