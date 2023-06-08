@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "name": "RexGPT",
+    "description": "A Chatbot trained on my own emails",
+    "technologies": ["React", "TypeScript", "Node.js", "ChatGPT"],
+    "imageUrl": "./assets/langchain-demo.png",
+    "repositoryUrl": "https://github.com/rexoliver/langchain-demo",
+    "liveUrl": "https://rexoliver.com/progcalc-react"
+  }
+  
