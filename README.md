@@ -1,4 +1,4 @@
-# Rex Oliver's Personal Website
+# Rex Oliver's Personal Website!
 
 This is the source code for my personal website, built using TypeScript and React, and hosted on GitHub Pages. You can view the website live at [https://rexoliver.com](https://rexoliver.com).
 
@@ -11,7 +11,7 @@ git clone https://github.com/rexoliver/rexoliver.github.io.git
 cd rexoliver.github.io
 npm install
 ```
-To start a local development server, run the following command:
+To start a local development server, run the following commands:
 
 ```
 npm start
@@ -21,7 +21,7 @@ This will start a development server and open the website in your default browse
 
 ## Deployment
 
-To deploy the website to GitHub Pages, run the following command:
+To deploy the website to GitHub Pages, run this command:
 
 ```
 npm run deploy
