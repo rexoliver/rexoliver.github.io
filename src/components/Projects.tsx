@@ -16,6 +16,9 @@ const Projects: React.FC = () => {
                 <div>
                     <ProjectObject filename="/data/dotfiles.json"/>
                 </div>
+                <div>
+                    <ProjectObject filename="/data/langchain-demo.json"/>
+                </div>
             </div>
         </>
     );
