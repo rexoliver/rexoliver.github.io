@@ -4,19 +4,23 @@ import Layout from './components/Layout';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
+import { BrowserRouter as Router } from "react-router-dom";
+
 import './App.css';
+import WIP from './components/WIP';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
       <>
-        <Layout>
-          <Routes>
-            <Route path="/" Component={Projects} />
-            <Route path="/about" Component={About} />
-            <Route path="/contact" Component={Contact} />
-          </Routes>
-        </Layout>
+          <Router>
+            <Routes>
+              {/* <Route path="/" element={<Projects />} /> */}
+              {/* <Route path="/about" element={<About />} /> */}
+              {/* <Route path="/contact" element={<Contact />} /> */}
+              <Route path="/" element={<WIP/>} />
+            </Routes>
+          </Router>
       </>
   );
 };
